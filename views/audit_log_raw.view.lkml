@@ -11,10 +11,10 @@ view: audit_log_raw {
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "Insert ID" in Explore.
 
-  dimension: insert_id {
-    type: string
-    sql: ${TABLE}.insertId ;;
-  }
+  # dimension: insert_id {
+  #   type: string
+  #   sql: ${TABLE}.insertId ;;
+  # }
 
   dimension: log_name {
     type: string
