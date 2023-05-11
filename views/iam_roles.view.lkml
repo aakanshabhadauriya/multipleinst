@@ -11,10 +11,10 @@ view: iam_roles {
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "Roles" in Explore.
 
-  dimension: roles {
-    type: string
-    sql: ${TABLE}.roles ;;
-  }
+  # dimension: roles {
+  #   type: string
+  #   sql: ${TABLE}.roles ;;
+  # }
 
   # This field is hidden, which means it will not show up in Explore.
   # If you want this field to be displayed, remove "hidden: yes".
