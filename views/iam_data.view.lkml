@@ -11,10 +11,10 @@ view: iam_data {
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "Bindings" in Explore.
 
-  dimension: bindings {
-    type: string
-    sql: ${TABLE}.bindings ;;
-  }
+  # dimension: bindings {
+  #   type: string
+  #   sql: ${TABLE}.bindings ;;
+  # }
 
   dimension: timestamp {
     type: string
